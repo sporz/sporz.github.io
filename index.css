@@ -40,6 +40,7 @@
 body
 {
     margin: 0;
+    margin-bottom: 0.1rem;
     background-color: rgb(230, 202, 166);
 }
 
