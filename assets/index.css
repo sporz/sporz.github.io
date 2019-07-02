@@ -114,7 +114,15 @@ main
     vertical-align: middle;
 }
 
+#introduction #detailedinfo
+{
+    margin: 4rem 10rem;
+}
 
+#delete
+{
+    text-decoration: line-through;
+}
 
 
 #footer
