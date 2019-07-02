@@ -5,18 +5,6 @@
     color: black;
 }
 
-#maintitle
-{
-    text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-}
-
-#maintitle img
-{
-    vertical-align:  sub;
-}
-
 #top
 {
     float: right;
@@ -45,11 +33,18 @@ body
 
 #maintitle
 {
-    margin: 0;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     height: 20rem;
     background-image: url(header.png);
     background-size: 100%;
     background-attachment: fixed;
+}
+
+#maintitle img
+{
+    vertical-align:  sub;
 }
 
 #maintitle h1
@@ -58,6 +53,10 @@ body
     color:orange;
 }
 
+#maintitle_introduction
+{
+    margin-top: 4rem;
+}
 
 main
 {
@@ -87,6 +86,36 @@ main
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+#introduction
+{
+    margin-left: 10rem;
+    display: inline;
+    vertical-align: middle;
+}
+
+#introduction #photo
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#introduction #information
+{
+    margin-left: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#introduction #contact
+{
+    margin-left: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
 
 #footer
 {
