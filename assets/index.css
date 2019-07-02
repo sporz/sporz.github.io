@@ -28,7 +28,9 @@
 body
 {
     margin: 0;
-    background-color: rgb(230, 202, 166);
+    background-color: rgb(106, 141, 197);
+    /*background-image: url(background.jpg);
+    background-size: 100%;*/
 }
 
 #maintitle
@@ -53,16 +55,17 @@ body
     color:orange;
 }
 
-#maintitle_introduction
+#maintitle_introduction, #maintitle_journals, #maintitle_pictures, #maintitle_journal1
 {
     margin-top: 5rem;
 }
+
 
 main
 {
     margin-top: 10rem;
     margin-bottom: 10rem;
-    height: 100rem;
+    height: 70rem;
 }
 
 
@@ -85,6 +88,20 @@ main
 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.journal_date
+{
+    margin-bottom: 1rem;
+}
+
+.journal_detailed
+{
+    margin: 5rem 10rem;
+    padding:   3rem;
+    border: 0.2rem black;
+    border-bottom-style: double;
 }
 
 #introduction
@@ -117,6 +134,12 @@ main
 #introduction #detailedinfo
 {
     margin: 4rem 10rem;
+}
+
+.pictures
+{
+    text-align: center;
+    margin: 8rem 20rem;
 }
 
 #delete
