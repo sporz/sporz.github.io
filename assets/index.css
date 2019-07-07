@@ -59,14 +59,6 @@ body
 }
 
 
-main
-{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    height: 70rem;
-}
-
-
 .journal
 {
     text-align: center;
@@ -96,17 +88,34 @@ main
 
 .journal_detailed
 {
-    margin: 5rem 10rem;
-    padding:   3rem;
+    margin: 5rem 10rem 0 ;
+    padding: 0 3rem 3rem;
     border: 0.2rem black;
     border-bottom-style: double;
+}
+
+.journal_link
+{
+    margin: 0 10rem;
+    padding:  3rem;
+    font-family: "楷体";
+    font-size: 1.5rem;
+}
+
+.journal_link .pre_journal
+{
+    margin-bottom: 1rem;
+}
+
+#space
+{
+    height: 10rem;
 }
 
 #introduction
 {
     margin-left: 10rem;
     display: inline;
-    vertical-align: middle;
 }
 
 #introduction #photo
