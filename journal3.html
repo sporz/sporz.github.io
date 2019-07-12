@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="assets/index.css">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title=日志></title>
+        <div id="top">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        主页
+                    </a>
+                </li>
+                <li>
+                    <a href="introduction.html">
+                       关于
+                    </a>
+                </li>
+                <li>
+                    <a href="journals.html">
+                        日志
+                    </a>
+                </li>
+                <li>
+                    <a href="pictures.html">
+                        照片
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </head>
+    <body>
+        <div id="maintitle">
+            <div id="maintitle_specific_journal">
+                <h1>服务器搭建</h1>
+            </div>
+        </div>
+        <main>
+            <div class=journal_detailed>
+                <h1>服务器搭建</h1>
+                <div class="journal_date">2019-07-12</div>
+                 <div class="journal_content">
+                        &emsp;一直觉得服务器这东西很神奇，通过这次实验，我对服务器和用户的交互有了初步的认识。<br>
+                        &emsp;首先是静态文件服务。在这一步中，把服务器看成一个远程的计算机，将我们的静态文件放到服务器上，
+                        再通过express框架的static函数设置我们远程访问它时的根目录，它就会在我们依据ip和端口访问时自动
+                        查找目录下的index.html文件并展示出来，这就完成了静态文件服务的搭建。<br>
+                        &emsp;其次是api的编写。我们可以把客户端向服务器发送一次请求并得到反馈的过程抽象成以下几个步骤：
+                        按照一定的格式将请求发送给服务器的某个api，服务器根据接受到的req在对应的api中运算，服务器返回res。
+                        有了这个过程的抽象，剩下的都是一些语法方面的问题了（虽然也不是一下子就能掌握的）。<br>
+                        &emsp;每一次的基础实验都是对学习到的全新的知识的一次应用，正因为不熟悉，所以要花大量的时间在搜索引擎和查看文档上。
+                        这几次实验，特别是实验三和实验四，给我的感觉就是体会到了框架的重要性。利用别人已经编写好的框架来实现一些功能是
+                        十分便利的，能够减少大量重复的工作，但这要建立在仔细阅读框架的用法的前提下。<br>
+                        &emsp;在做实验的过程中，脑子里出现的最多的两句话是“这到底是个什么东西”和“我用了这个怎么没有用”，还是有些痛苦的，
+                        而最幸福的就是编写函数内部逻辑的时候。看来自己的学习能力还是有待提高。
+                        
+                 </div>
+            </div>
+            
+            <div class="journal_link">
+                <div class="pre_journal">
+                    上一篇：<a href="journal2.html">初识JS</a>
+                </div>
+                <div class="next_journal">
+                    下一篇：无
+                </div>
+            </div>
+
+            <aside>
+                
+            </aside>
+        </main>
+        <div id="footer"></div>
+    </body>
+</html>
