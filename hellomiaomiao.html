@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+    function submit() {
+        if (myform.input.value == "喵喵"){
+            window.location.href="girl_day.html"
+        }
+        else{
+            var wrong_t = document.getElementById("wrong")
+            wrong_t.style.visibility = "visible";
+        }
+    }
+</script>
+<html>
+<meta charset="utf-8" />
+<div style="text-align: center;">
+    <div id="hint">我给你的备注是？</div>
+    <form name="myform">
+        <input name="input">
+    </form>
+    <button id="submit" onclick="submit()">提交</button>
+</div>
+<div id="wrong" style="text-align: center; color: red; visibility: hidden;">
+    <div>错啦</div>
+</div>
+
+</html>
